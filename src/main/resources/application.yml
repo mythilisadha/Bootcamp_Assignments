@@ -1,0 +1,7 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: my-cassandra-node
+      keyspace-name: bootcamp
+      entity-base-package: com.example.cassandra.springbootcassandrademo.Model
